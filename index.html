@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Rate</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="left-content">
+            <h1>Exchange Rate</h1>
+            <div class="nbr">
+                <label class="miktar" for="miktar">Bir değer giriniz...</label> <br>
+                <input class="number" type="number" value="Miktar" id="miktar">
+            </div>
+            <div>
+                <select name="first-currency" id="first-currency">
+                    <option>TRY</option>
+                    <option selected>USD</option>
+                    <option>AUD</option>
+                    <option>AZN</option>
+                    <option>BTC</option>
+                    <option>EUR</option>
+                    <option>SGD</option>
+                    <option>SHP</option>
+                    <option>SOS</option>
+                    <option>STD</option>
+                    <option>SZL</option>
+                    <option>THB</option>
+                    <option>TJS</option>
+                </select>
+            </div>
+            <div>
+                <select name="second-currency" id="second-currency">
+                    <option selected>TRY</option>
+                    <option>USD</option>
+                    <option>AUD</option>
+                    <option>AZN</option>
+                    <option>BTC</option>
+                    <option>EUR</option>
+                    <option>SGD</option>
+                    <option>SHP</option>
+                    <option>SOS</option>
+                    <option>STD</option>
+                    <option>SZL</option>
+                    <option>THB</option>
+                    <option>TJS</option>
+                </select>
+            </div>
+        </div>
+        <div class="right-content">
+            <div class="currencyes"> <span class="first-currently">USD</span> -
+                <span class="second-currently">TRY</span>
+            </div>
+
+            <div><input class="result" type="number" readonly></div>
+        </div>
+    </div>
+
+    <script src="ui.js"></script>
+    <script src="currency.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

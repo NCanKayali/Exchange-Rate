@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-image: url(3d-rendering-luxury-business-meeting-working-room-executive-office.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    height: 800px;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background-image: linear-gradient(to right,rgb(240, 99, 5),rgb(6, 193, 218));
+    border-radius: 25px;
+
+}
+
+.number {
+    width: 200px;
+    text-align: center;
+    height: 25px;
+    border: none;
+
+}
+
+.left-content>h1 {
+    position: absolute;
+    bottom: 430px;
+    background-color: rgb(1, 60, 94);
+    color: white;
+    border-radius: 4% 30px;
+    width: 220px;
+    padding: 10px;
+}
+.miktar{
+    position: absolute;
+    top: 340px;
+}
+
+.left-content .number,
+#first-currency,
+#second-currency {
+    margin: 25px 0 0 0;
+    border: none;
+    border-bottom: 2px solid black; 
+    background-color: transparent;
+
+}
+
+#first-currency,
+#second-currency {
+    width: 120px;
+    text-align: center;
+}
+
+.right-content {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-image: linear-gradient(to right,rgb(240, 99, 5),rgb(6, 193, 218));
+    
+
+}
+
+.currencyes,
+.result {
+    position: relative;
+    bottom: 105px;
+    
+}
+
+.currencyes {
+    margin: 50px 0;
+    border-radius: 4% 30px;
+    width: 220px;
+    text-align: center;
+    color: white;
+    background-color: rgb(1, 60, 94);
+    padding: 15px;
+    font-size:x-large;
+
+}
+
+.result {
+    text-align: center;
+    color: green;
+    border: none;
+    font-size: 20px;
+    height: 25px;
+    border: 2px solid black; 
+    background-color: transparent;
+    
+
+}
